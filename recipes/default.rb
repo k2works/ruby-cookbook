@@ -6,3 +6,5 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+include_recipe 'ruby-env::setup'
+include_recipe 'ruby-env::configure'
